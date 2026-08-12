@@ -3,1052 +3,1175 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pay Nothing EFTPOS Terminals & Merchant Facilities | DitchFees Australia</title>
-  <meta name="description" content="Ditch your merchant transaction fees and $0 terminal rentals with DitchFees Australia. Smart surcharging, 100% net daily settlement, and merchant CRM portal.">
-  <meta property="og:title" content="Pay Nothing EFTPOS Terminals & Merchant Facilities | DitchFees Australia">
-  <meta property="og:description" content="Ditch your merchant transaction fees and $0 terminal rentals with DitchFees Australia. Smart surcharging and net daily settlement.">
+
+  <title>Pay Nothing EFTPOS Australia | DitchFees</title>
+  <meta name="description" content="Pay nothing on EFTPOS transaction fees with DitchFees. Terminal rental from $0 a month, net settlement, no lock-in contracts. Australia-wide. Get a free quote.">
+  <meta name="theme-color" content="#00263f">
+  <link rel="canonical" href="https://ditchfees.com.au/">
+
   <meta property="og:type" content="website">
-  <meta name="theme-color" content="#0e0918">
-  
+  <meta property="og:site_name" content="DitchFees Australia">
+  <meta property="og:title" content="Pay Nothing EFTPOS Australia | DitchFees">
+  <meta property="og:description" content="Zero transaction fees on every card sale and terminal rental from $0 a month. Australian storefronts, cafes and tradies. Get a free merchant fee audit.">
+  <meta property="og:url" content="https://ditchfees.com.au/">
+  <meta property="og:image" content="https://ditchfees.com.au/Images/hero_bg.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="Images/logo.png">
+  <link rel="preload" as="image" href="Images/hero_bg.png">
   <link rel="stylesheet" href="index.css">
-  
-  <!-- Schema.org Structured Data -->
+
+  <!-- DEMO DATA WARNING: telephone, email, address, sameAs profiles and the
+       aggregateRating below are invented for this build. aggregateRating must
+       match what the page displays, so if the real figures differ, change the
+       hero badge, the section 5 stat tile, section 8 and this block together.
+       Publishing an unearned aggregateRating breaches Google's review snippet
+       policy, so clear it before launch if there is no real listing. -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FinancialService",
+    "@type": "LocalBusiness",
+    "@id": "https://ditchfees.com.au/#business",
     "name": "DitchFees Australia",
-    "url": "https://ditchfees.com.au",
-    "logo": "https://ditchfees.com.au/images/hero_bg.png",
-    "description": "Provider of zero-fee EFTPOS payment terminals, merchant portals, and automated surcharging for Australian small business merchants.",
-    "telephone": "1300 000 333",
-    "areaServed": "Australia",
-    "priceRange": "$$",
-    "parentOrganization": {
-      "@type": "Organization",
-      "name": "Darqtec Pty Ltd"
+    "alternateName": "DitchFees",
+    "url": "https://ditchfees.com.au/",
+    "logo": "https://ditchfees.com.au/Images/logo.png",
+    "image": "https://ditchfees.com.au/Images/hero_bg.png",
+    "description": "Zero-fee EFTPOS merchant facilities for Australian small business. Terminal rental from $0 a month, automated surcharging, net settlement and a single source merchant portal.",
+    "telephone": "+611300348243",
+    "email": "hello@ditchfees.com.au",
+    "priceRange": "$",
+    "areaServed": { "@type": "Country", "name": "Australia" },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Brisbane",
+      "addressRegion": "QLD",
+      "addressCountry": "AU"
+    },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "08:30",
+      "closes": "17:30"
+    }],
+    "parentOrganization": { "@type": "Organization", "name": "Darqtec Pty Ltd" },
+    "sameAs": [
+      "https://www.instagram.com/ditchfees",
+      "https://www.facebook.com/ditchfees",
+      "https://www.linkedin.com/company/ditchfees"
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5.0",
+      "reviewCount": "44",
+      "bestRating": "5",
+      "worstRating": "1"
     }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are quotes really free?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, and there's no obligation at the end of it. Send us your last merchant statement and we'll read it back to you in plain English, including what you're paying now and what you'd pay with us. If the numbers don't stack up for you, we'll tell you that too."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Where do you operate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Australia-wide. We set up storefronts, cafes, salons and mobile tradies from Cairns to Perth, and the terminals ship to you configured. Give us a ring and we'll confirm coverage for your postcode."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How does the $0 terminal rental actually work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Rental is $0 a month for any terminal that turns over at least $12,000 in that month. If a terminal comes in under that in a given month, a flat $29 including GST applies for that month only. There's nothing else, and no charge per transaction to you."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Am I locked into a contract?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "No lock-in contracts. We'd rather keep you because the terminal costs you nothing than because a contract says you have to stay. If you want to talk through the terms before you commit, that's what the free audit call is for."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How quickly can I be trading, and when do funds land?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most merchants are trading within a few days of saying yes, because the terminal arrives already configured. From there you settle net, straight into your existing bank account, with no monthly transaction bill to reconcile. Ring us and we'll give you a date."
+        }
+      }
+    ]
   }
   </script>
 </head>
 <body>
 
-  <!-- SECTION 1: Sticky Navbar -->
-  <header class="navbar" id="navbar">
-    <div class="container nav-container">
-      <a href="#" class="nav-logo" aria-label="DitchFees Homepage">
-        <img src="Images/logo.png" alt="DitchFees Logo" class="logo-img">
-      </a>
-      
-      <nav aria-label="Main Navigation">
-        <ul class="nav-links">
-          <li><a href="#hero">Home</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#why">Why DitchFees</a></li>
-          <li><a href="#process">How It Works</a></li>
-          <li><a href="#work">Case Studies</a></li>
-          <li><a href="#faq">FAQ</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+<!-- ==========================================================================
+     ICON SPRITE (Lucide-style outline, 1.5px stroke, currentColor).
+     Icons only. Zero emoji characters anywhere in this document.
+     ========================================================================== -->
+<svg class="sprite" aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg">
+  <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6A19.79 19.79 0 0 1 2.12 4.2 2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/>
+  </symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="4" y1="12" x2="19" y2="12"/><polyline points="12.5 5.5 19 12 12.5 18.5"/>
+  </symbol>
+  <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2.6l2.76 5.6 6.18.9-4.47 4.36 1.05 6.15L12 16.71l-5.52 2.9 1.05-6.15L3.06 9.1l6.18-.9z"/>
+  </symbol>
+  <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="20 6.5 9 17.5 4 12.5"/>
+  </symbol>
+  <symbol id="i-slash" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9"/><line x1="8.2" y1="8.2" x2="15.8" y2="15.8"/>
+  </symbol>
+  <symbol id="i-dot" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5" fill="currentColor"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+    <line x1="3.5" y1="7" x2="20.5" y2="7"/><line x1="3.5" y1="12" x2="20.5" y2="12"/><line x1="3.5" y1="17" x2="20.5" y2="17"/>
+  </symbol>
+  <symbol id="i-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+    <line x1="6" y1="6" x2="18" y2="18"/><line x1="18" y1="6" x2="6" y2="18"/>
+  </symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+    <line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/>
+  </symbol>
+  <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M8 5.2v13.6L19 12z"/>
+  </symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>
+  </symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15.5 14"/>
+  </symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><polyline points="3 6.5 12 13 21 6.5"/>
+  </symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <rect x="2.5" y="2.5" width="19" height="19" rx="5.5"/><circle cx="12" cy="12" r="4"/><line x1="17.6" y1="6.4" x2="17.61" y2="6.4"/>
+  </symbol>
+  <symbol id="i-facebook" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M17 2.5h-2.5a4.5 4.5 0 0 0-4.5 4.5v3H7.5v4H10v7.5h4V14h2.6l.9-4H14V7a1 1 0 0 1 1-1h2z"/>
+  </symbol>
+  <symbol id="i-linkedin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M16.5 8.5A5.5 5.5 0 0 1 22 14v7h-4v-7a1.5 1.5 0 0 0-3 0v7h-4v-12h4v1.5a5.4 5.4 0 0 1 1.5-1z"/>
+    <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+  </symbol>
+</svg>
 
-      <div class="nav-right">
-        <a href="tel:1300000333" class="nav-phone" aria-label="Call DitchFees on 1300 000 333">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-          <span>1300 000 333</span>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<!-- ==========================================================================
+     SECTION 1: STICKY NAVBAR
+     ========================================================================== -->
+<header class="nav" id="nav">
+  <div class="wrap nav-inner">
+
+    <!-- logo-nav.png is logo.png with the navy plate knocked out, so the mark sits
+         on the photo and on the scrolled navy bar without a floating box. -->
+    <a class="nav-brand" href="#hero" aria-label="DitchFees home">
+      <img src="Images/logo-nav.png" alt="DitchFees" width="228" height="49">
+    </a>
+
+    <nav class="nav-links" id="nav-menu" aria-label="Primary">
+      <a href="#hero">Home</a>
+      <a href="#services">Services</a>
+      <a href="#why">Why us</a>
+      <a href="#process">How it works</a>
+      <a href="#work">Our work</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-right">
+      <div class="nav-socials">
+        <!-- DEMO DATA: these social profiles are not published by DitchFees and may not exist. Replace before launch. -->
+        <a href="https://www.instagram.com/ditchfees" aria-label="DitchFees on Instagram"><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+        <a href="https://www.facebook.com/ditchfees" aria-label="DitchFees on Facebook"><svg class="ico" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+        <a href="https://www.linkedin.com/company/ditchfees" aria-label="DitchFees on LinkedIn"><svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+      </div>
+
+      <a class="nav-phone" href="tel:1300348243">
+        <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+        <span>1300 348 243</span>
+      </a>
+
+      <a class="btn btn-primary" href="#contact">
+        <span>Get a quote</span>
+        <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+      </a>
+
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-menu">
+        <svg class="ico ico-open" aria-hidden="true"><use href="#i-menu"/></svg>
+        <svg class="ico ico-close" aria-hidden="true"><use href="#i-x"/></svg>
+      </button>
+    </div>
+
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ==========================================================================
+       SECTION 2: HERO + LEAD FORM
+       Light, naturally lit source photo with a subtle dark gradient on top (2.7).
+       ========================================================================== -->
+  <section class="hero" id="hero">
+    <img class="hero-photo" src="Images/hero_bg.png" alt="Two baristas serving a customer at a bright daylit Australian cafe counter with a payment terminal on the bench" width="1024" height="1024" fetchpriority="high">
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="hero-vignette" aria-hidden="true"></div>
+
+    <div class="wrap hero-grid">
+
+      <div class="hero-copy reveal">
+
+        <!-- DEMO DATA: no Google Business Profile for DitchFees could be found. The
+             rating, the review count and this link are invented. Replace before launch. -->
+        <a class="rating-chip glass" href="https://g.page/r/ditchfees/review">
+          <img class="g-mark" src="Images/Google.svg" alt="Google" width="18" height="18">
+          <span class="stars" aria-hidden="true">
+            <svg class="ico ico-star"><use href="#i-star"/></svg>
+            <svg class="ico ico-star"><use href="#i-star"/></svg>
+            <svg class="ico ico-star"><use href="#i-star"/></svg>
+            <svg class="ico ico-star"><use href="#i-star"/></svg>
+            <svg class="ico ico-star"><use href="#i-star"/></svg>
+          </span>
+          <span class="rating-text">5.0 · 44 reviews</span>
         </a>
-        <a href="#contact" class="btn btn-primary">
-          <span>Get a quote</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-        </a>
-        <button class="mobile-toggle" aria-label="Toggle menu">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-        </button>
+
+        <h1>Ditch your merchant fees. <span class="hl">Keep the takings</span>.</h1>
+
+        <p class="lede">Zero transaction fees on every card sale, and terminal rental from $0 a month. We set up Australian storefronts, cafes and tradies to surcharge properly, so the banks stop skimming your margin.</p>
+
+        <ul class="trust-row">
+          <li class="chip glass">
+            <svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+            <span>Zero transaction fees</span>
+          </li>
+          <li class="chip glass">
+            <svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+            <span>$0 terminal rental</span>
+          </li>
+          <li class="chip glass">
+            <svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+            <span>No lock-in contracts</span>
+          </li>
+        </ul>
+
+        <div class="cta-row">
+          <a class="btn btn-white" href="tel:1300348243">
+            <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span>1300 348 243</span>
+          </a>
+          <a class="btn btn-glass" href="#contact">
+            <span>Get a quote</span>
+            <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- The hero lead form was removed at the client's request. The page now
+           captures once, in section 11. This departs from template rule 0.2, which
+           calls for the form above the fold and again in the final CTA. -->
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 3: LOGO MARQUEE
+       No partner or card scheme logos are published by DitchFees, so this uses the
+       template 3.3 fallback: brand-name text badges, drawn only from wording that
+       appears verbatim on ditchfees.com.au.
+       NEEDS: real partner / card scheme logo files to replace these badges.
+       ========================================================================== -->
+  <section class="marquee-band" id="included" aria-label="What is included with a DitchFees merchant facility">
+    <div class="wrap">
+      <p class="marquee-label">What comes with every DitchFees merchant facility</p>
+    </div>
+
+    <div class="marquee" data-marquee>
+      <div class="marquee-track">
+        <!-- set 1 -->
+        <span class="brand-badge">Pay Nothing EFTPOS</span>
+        <span class="brand-badge">DitchFees-CRM</span>
+        <span class="brand-badge">Merchant Portal</span>
+        <span class="brand-badge">Piptle.Store</span>
+        <span class="brand-badge">QR Customer Rewards</span>
+        <span class="brand-badge">Win DitchFees</span>
+        <span class="brand-badge">Net Settlement</span>
+        <!-- set 2 -->
+        <span class="brand-badge" aria-hidden="true">Pay Nothing EFTPOS</span>
+        <span class="brand-badge" aria-hidden="true">DitchFees-CRM</span>
+        <span class="brand-badge" aria-hidden="true">Merchant Portal</span>
+        <span class="brand-badge" aria-hidden="true">Piptle.Store</span>
+        <span class="brand-badge" aria-hidden="true">QR Customer Rewards</span>
+        <span class="brand-badge" aria-hidden="true">Win DitchFees</span>
+        <span class="brand-badge" aria-hidden="true">Net Settlement</span>
+        <!-- set 3 -->
+        <span class="brand-badge" aria-hidden="true">Pay Nothing EFTPOS</span>
+        <span class="brand-badge" aria-hidden="true">DitchFees-CRM</span>
+        <span class="brand-badge" aria-hidden="true">Merchant Portal</span>
+        <span class="brand-badge" aria-hidden="true">Piptle.Store</span>
+        <span class="brand-badge" aria-hidden="true">QR Customer Rewards</span>
+        <span class="brand-badge" aria-hidden="true">Win DitchFees</span>
+        <span class="brand-badge" aria-hidden="true">Net Settlement</span>
+        <!-- set 4 -->
+        <span class="brand-badge" aria-hidden="true">Pay Nothing EFTPOS</span>
+        <span class="brand-badge" aria-hidden="true">DitchFees-CRM</span>
+        <span class="brand-badge" aria-hidden="true">Merchant Portal</span>
+        <span class="brand-badge" aria-hidden="true">Piptle.Store</span>
+        <span class="brand-badge" aria-hidden="true">QR Customer Rewards</span>
+        <span class="brand-badge" aria-hidden="true">Win DitchFees</span>
+        <span class="brand-badge" aria-hidden="true">Net Settlement</span>
       </div>
     </div>
-  </header>
+  </section>
 
-  <main id="main-content">
+  <!-- ==========================================================================
+       OPTIONAL INSERT: PAIN-POINT EMPATHY BLOCK (sits between 3 and 4)
+       ========================================================================== -->
+  <section class="problem" id="problem">
+    <div class="wrap problem-grid">
 
-    <!-- SECTION 2: Hero + Lead Form -->
-    <section class="hero-section" id="hero">
-      <img src="Images/hero_bg.png" alt="Bright Australian storefront cafe counter with portable payment terminal" class="hero-bg-img">
-      <div class="hero-overlay"></div>
-      
-      <div class="container hero-grid">
-        <!-- Left Column: Content -->
-        <div class="hero-content">
-          <a href="#reviews" class="hero-badge glass">
-            <img src="Images/Google.svg" alt="Google logo icon" class="google-icon">
-            <div class="stars-row">
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            </div>
-            <span>5.0 · Verified Merchant Service</span>
-          </a>
-
-          <h1 class="hero-h1">Ditch your merchant fees and <span class="hl">keep your profits</span>.</h1>
-          
-          <p class="hero-subhead">Pay zero EFTPOS transaction fees and $0 machine rental for your Australian business. Pass surcharges seamlessly to cardholders and put your hard-earned money back in your pocket.</p>
-
-          <div class="hero-trust-row">
-            <div class="trust-chip">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              <span>Zero Transaction Bills</span>
-            </div>
-            <div class="trust-chip">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              <span>100% Net Settlement</span>
-            </div>
-            <div class="trust-chip">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
-              <span>$0 Machine Rental¹</span>
-            </div>
-          </div>
-
-          <div class="hero-cta-row">
-            <a href="tel:1300000333" class="btn btn-solid-white">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <span>1300 000 333</span>
-            </a>
-            <a href="#contact" class="btn btn-glass">
-              <span>Request terminal</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </a>
-          </div>
-        </div>
-
-        <!-- Right Column: Glass Lead Form -->
-        <div class="form-card-glass glass">
-          <h2 class="form-title">Request a free quote</h2>
-          <p class="form-subtitle">Free strategy call · No obligation</p>
-          
-          <form class="lead-form" id="hero-lead-form">
-            <div class="form-group">
-              <label for="hero-name">Name</label>
-              <input type="text" id="hero-name" class="form-input-glass" placeholder="Your full name" required>
-            </div>
-            
-            <div class="form-group">
-              <label for="hero-phone">Phone</label>
-              <input type="tel" id="hero-phone" class="form-input-glass" placeholder="0400 000 000" required>
-            </div>
-            
-            <div class="form-group">
-              <label for="hero-email">Email</label>
-              <input type="email" id="hero-email" class="form-input-glass" placeholder="name@business.com.au" required>
-            </div>
-
-            <div class="form-group">
-              <label for="hero-service">Service requested</label>
-              <select id="hero-service" class="form-input-glass" required>
-                <option value="" disabled selected>Select a payment solution</option>
-                <option value="Zero-Fee EFTPOS Terminal">Zero-Fee EFTPOS Terminal</option>
-                <option value="Smart Mobile PAX A77">Smart Mobile PAX A77 Terminal</option>
-                <option value="Merchant Portal & CRM">Merchant Portal & CRM</option>
-                <option value="QR Loyalty & Rewards Program">QR Loyalty & Rewards Program</option>
-                <option value="Piptle E-Commerce Integration">Piptle E-Commerce Integration</option>
-                <option value="Not sure / something else">Not sure / something else</option>
-              </select>
-            </div>
-
-            <div class="form-group">
-              <label for="hero-message">Message (optional)</label>
-              <textarea id="hero-message" class="form-input-glass" placeholder="Tell us about your business or monthly volume"></textarea>
-            </div>
-
-            <button type="submit" class="btn btn-solid-white" style="width: 100%; margin-top: 0.5rem;">
-              <span>Request my quote</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </button>
-            <p class="form-microcopy">Same-business-day response · No obligation</p>
-          </form>
-
-          <div class="form-success-msg">
-            <p>Thanks, we'll be in touch same business day.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 3: Logo Marquee -->
-    <section class="logo-marquee-section" id="marquee">
-      <div class="container">
-        <p class="marquee-label">Trade-grade terminals trusted by Australian storefronts and businesses</p>
-      </div>
-      <div class="marquee-track-wrap">
-        <div class="marquee-track">
-          <div class="logo-item">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
-            <span>PAX Technology</span>
-          </div>
-          <div class="logo-item">
-            <svg viewBox="0 0 24 24" fill="currentColor"><circle cx="8" cy="12" r="6"/><circle cx="16" cy="12" r="6"/></svg>
-            <span>Mastercard</span>
-          </div>
-          <div class="logo-item">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h16v16H4z"/></svg>
-            <span>Visa</span>
-          </div>
-          <div class="logo-item">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 100 20 10 10 0 000-20z"/></svg>
-            <span>EFTPOS Australia</span>
-          </div>
-          <div class="logo-item">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83z"/></svg>
-            <span>Apple Pay</span>
-          </div>
-          <div class="logo-item">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z"/></svg>
-            <span>Google Pay</span>
-          </div>
-          <div class="logo-item">
-            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M3 3h18v18H3z"/></svg>
-            <span>UnionPay</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- OPTIONAL INSERT: Pain-Point Empathy Block -->
-    <section class="empathy-section" id="empathy">
-      <div class="container empathy-grid">
-        <div class="empathy-left">
-          <span class="eyebrow">
-            <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-            The fee problem
-          </span>
-          <h2>Tired of banks taking a slice of <span class="hl">every single sale</span>.</h2>
-          <p class="subhead" style="margin-top: 1rem;">Every card swipe eats into your margins. Monthly rental fees, hidden merchant service charges, and complex bank statements shouldn't be the tax you pay for doing business in Australia.</p>
-        </div>
-
-        <div class="empathy-right">
-          <div class="empathy-checklist">
-            <div class="empathy-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-              <span>High merchant facility fees draining cash flow</span>
-            </div>
-            <div class="empathy-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-              <span>Expensive terminal rentals charged every month</span>
-            </div>
-            <div class="empathy-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-              <span>Confusing statements with hidden processing surcharges</span>
-            </div>
-            <div class="empathy-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-              <span>Losing repeat customers without built-in loyalty</span>
-            </div>
-            <div class="empathy-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-              <span>Slow daily settlement cycles delaying payments</span>
-            </div>
-            <div class="empathy-item">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg>
-              <span>Clunky hardware that drops signal during peak trade</span>
-            </div>
-          </div>
-
-          <p class="empathy-reframe">You don't need another expensive bank terminal. You need a zero-fee payment setup that works for you.</p>
-
-          <a href="#contact" class="btn btn-primary">
-            <span>Calculate your savings</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 4: Services Grid -->
-    <section class="services-section" id="services">
-      <div class="container">
-        <div class="split-header">
-          <div>
-            <span class="eyebrow">
-              <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-              Our services
-            </span>
-            <h2>A focused payment setup built to <span class="hl">boost your margins</span>.</h2>
-          </div>
-          <div>
-            <p class="subhead">We replace outdated bank merchant facilities with smart EFTPOS terminals, real-time analytics, and customer loyalty tools designed specifically for Australian storefronts and service businesses.</p>
-          </div>
-        </div>
-
-        <div class="services-grid">
-          <!-- Card 1 -->
-          <div class="service-card">
-            <div class="service-img-wrap">
-              <img src="Images/eftpos_term.png" alt="Sleek portable smart Pax A77 EFTPOS terminal" class="service-img">
-            </div>
-            <div class="service-content">
-              <span class="service-num-chip">01</span>
-              <h3 class="service-title">Pay Nothing EFTPOS Terminals</h3>
-              <p class="service-desc">Smart portable Pax A77 terminals with $0 monthly rental when you transact over $12k a month. Zero transaction fees with 100% automated surcharging.</p>
-              <a href="#contact" class="service-link">
-                <span>Explore service</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="service-card">
-            <div class="service-img-wrap">
-              <img src="Images/portal_dash.png" alt="Merchant portal analytics dashboard on modern laptop screen" class="service-img">
-            </div>
-            <div class="service-content">
-              <span class="service-num-chip">02</span>
-              <h3 class="service-title">Merchant Portal & CRM</h3>
-              <p class="service-desc">Single source reporting with real-time transaction tracking, customer analytics, and automated daily bank settlement breakdown in one dashboard.</p>
-              <a href="#contact" class="service-link">
-                <span>Explore service</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="service-card">
-            <div class="service-img-wrap">
-              <img src="Images/loyalty_qr.png" alt="Customer scanning QR code loyalty rewards card at store checkout" class="service-img">
-            </div>
-            <div class="service-content">
-              <span class="service-num-chip">03</span>
-              <h3 class="service-title">QR Customer Rewards Program</h3>
-              <p class="service-desc">Turn one-off shoppers into loyal regulars with integrated QR customer rewards and prize giveaways for card users directly linked to your checkout.</p>
-              <a href="#contact" class="service-link">
-                <span>Explore service</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-              </a>
-            </div>
-          </div>
-
-          <!-- Card 4 -->
-          <div class="service-card">
-            <div class="service-img-wrap">
-              <img src="Images/ecom_store.png" alt="E-commerce store online checkout screen setup" class="service-img">
-            </div>
-            <div class="service-content">
-              <span class="service-num-chip">04</span>
-              <h3 class="service-title">Piptle.Store E-Commerce Integration</h3>
-              <p class="service-desc">Expand beyond your physical store with direct e-commerce integration, multi-channel payment processing, and instant payout capabilities.</p>
-              <a href="#contact" class="service-link">
-                <span>Explore service</span>
-                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 5: Why Us + Stats (DARK ACCENT) -->
-    <section class="why-section section-dark" id="why">
-      <img src="Images/why_bg.png" alt="Australian business owner smiling at bright retail counter" class="why-bg-img">
-      
-      <div class="container why-grid">
-        <!-- Left side: Manifesto & Checklist -->
-        <div class="why-left">
-          <span class="eyebrow">
-            <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-            Why DitchFees
-          </span>
-          <h2>We keep it simple. <span class="hl">No fluff</span>.</h2>
-          <p class="subhead" style="margin-top: 1rem;">We built DitchFees to give Australian business owners a fair go against predatory merchant fees. You keep 100% of your sale prices while cardholders cover transaction costs directly.</p>
-
-          <div class="why-checklist">
-            <div class="why-check-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-              <span>Fixed transparent rates with zero hidden end-of-month surprises</span>
-            </div>
-            <div class="why-check-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-              <span>100% Net settlement directly into your existing Australian bank account</span>
-            </div>
-            <div class="why-check-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-              <span>Direct access to local Australian technical support teams</span>
-            </div>
-            <div class="why-check-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-              <span>Smart surcharging compliant with Reserve Bank of Australia rules</span>
-            </div>
-            <div class="why-check-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-              <span>Portable 4G and WiFi terminals ready right out of the box</span>
-            </div>
-            <div class="why-check-item">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-              <span>Free terminal replacement if your device ever experiences an issue</span>
-            </div>
-          </div>
-
-          <div class="why-cta-row" style="display: flex; gap: 1rem; align-items: center;">
-            <a href="#contact" class="btn btn-primary">
-              <span>Request a quote</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </a>
-            <a href="tel:1300000333" class="btn btn-glass">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <span>1300 000 333</span>
-            </a>
-          </div>
-        </div>
-
-        <!-- Right side: 2x2 Stats Grid -->
-        <div class="stats-grid">
-          <div class="stat-tile glass">
-            <div class="stat-number">$0</div>
-            <div class="stat-label">Transaction fees to merchants</div>
-          </div>
-          <div class="stat-tile glass">
-            <div class="stat-number">$12k</div>
-            <div class="stat-label">Monthly turnover for $0 rental¹</div>
-          </div>
-          <div class="stat-tile glass">
-            <div class="stat-number">100%</div>
-            <div class="stat-label">Net daily settlement</div>
-          </div>
-          <div class="stat-tile glass">
-            <div class="stat-number">6+ Years</div>
-            <div class="stat-label">Trusted payment experience</div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 6: Process Steps -->
-    <section class="process-section" id="process">
-      <div class="container">
+      <div class="problem-copy reveal">
         <span class="eyebrow">
-          <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
+          <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+          The fee problem
+        </span>
+        <h2>Every card sale, the bank <span class="hl">takes a slice</span>.</h2>
+        <p class="lede">It's the one bill you never got to negotiate. It comes out before the money lands, it moves around month to month, and nobody at the bank rings to tell you it went up.</p>
+        <p class="reframe">You don't need a better rate. You need to stop paying the fee at all.</p>
+        <a class="btn btn-primary" href="#contact">
+          <span>Get a free fee audit</span>
+          <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+
+      <ul class="pain-list reveal">
+        <li><svg class="ico" aria-hidden="true"><use href="#i-slash"/></svg><span>A merchant service fee on every single transaction</span></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-slash"/></svg><span>Terminal rental charged whether you trade or not</span></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-slash"/></svg><span>Statements you need your bookkeeper to decode</span></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-slash"/></svg><span>Fees taken out before the money hits your account</span></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-slash"/></svg><span>Lock-in contracts with a cost to walk away</span></li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-slash"/></svg><span>Guessing which sale settled, and when</span></li>
+      </ul>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 4: SERVICES GRID
+       ========================================================================== -->
+  <section class="services" id="services">
+    <div class="wrap">
+
+      <div class="split-head reveal">
+        <div>
+          <span class="eyebrow">
+            <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+            Our services
+          </span>
+          <h2>A payment setup that <span class="hl">costs you nothing</span>.</h2>
+        </div>
+        <p class="split-lede">We're not a bank and we've no interest in becoming one. We swap out your merchant facility for a terminal that charges you nothing, then hand you the portal, the rewards program and the online store that go with it.</p>
+      </div>
+
+      <div class="cards">
+
+        <article class="card reveal">
+          <div class="card-media">
+            <img src="Images/eftpos_term.png" alt="A PAX A77 portable EFTPOS terminal on a timber cafe bench showing a $34.50 tap payment" width="1024" height="1024" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="num">01</span>
+            <h3><a href="#contact">Pay Nothing EFTPOS</a></h3>
+            <p>Portable or mobile terminals that cost you nothing to run. Your cardholders cover the transaction cost through surcharging, so the fee stops coming out of your margin.</p>
+            <span class="card-link">
+              <span>Explore service</span>
+              <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media">
+            <img src="Images/portal_dash.png" alt="A laptop on a bright desk showing the merchant portal dashboard with revenue, settlements and recent transactions" width="1024" height="1024" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="num">02</span>
+            <h3><a href="#contact">Merchant Portal and CRM</a></h3>
+            <p>Single source reporting for the lot. Dashboard, settled transactions, chargeback reports and funding deposits, in tables or charts, alongside the DitchFees-CRM and communication tools.</p>
+            <span class="card-link">
+              <span>Explore service</span>
+              <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media">
+            <img src="Images/loyalty_qr.png" alt="A customer scanning a QR rewards card with her phone at a bright cafe counter" width="1024" height="1024" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="num">03</span>
+            <h3><a href="#contact">QR Customer Rewards</a></h3>
+            <p>A scan-to-join rewards and loyalty program tied to your checkout. Card users also go in the draw through Win DitchFees, which gives regulars a reason to come back to you.</p>
+            <span class="card-link">
+              <span>Explore service</span>
+              <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </span>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="card-media">
+            <img src="Images/ecom_store.png" alt="An iMac in a bright home office showing an online store checkout processing a card payment" width="1024" height="1024" loading="lazy">
+          </div>
+          <div class="card-body">
+            <span class="num">04</span>
+            <h3><a href="#contact">Piptle.Store eCommerce</a></h3>
+            <p>Free access to the Piptle.Store eCommerce platform, so the shop out the back of your storefront runs on the same facility and reports into the same portal.</p>
+            <span class="card-link">
+              <span>Explore service</span>
+              <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 5: WHY US + STATS  (DARK ACCENT)
+       Light source photo, subtle dark gradient on top. Glass tiles.
+       ========================================================================== -->
+  <section class="why dark" id="why">
+    <img class="why-photo" src="Images/why_bg.png" alt="A shop owner smiling behind the counter of a bright coastal Australian homewares store" width="1024" height="1024" loading="lazy">
+    <div class="why-scrim" aria-hidden="true"></div>
+
+    <div class="wrap why-grid">
+
+      <div class="why-copy reveal">
+        <span class="eyebrow">
+          <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+          Why DitchFees
+        </span>
+        <h2>We keep it simple. <span class="hl">No bills</span>.</h2>
+        <p class="lede">DitchFees exists to put merchant fees back where they belong, which is not in your pocket. You keep your prices, cardholders cover the cost of paying by card, and there's no monthly invoice to open.</p>
+
+        <ul class="check-list">
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span>You pay no transaction fees, cardholders surcharge instead</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span>Terminal rental from $0 a month<sup>1</sup></span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span>No lock-in contracts</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span>Net settlement, so there's no monthly bill to reconcile</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span>Portable and mobile terminals, not just a counter unit</span></li>
+          <li><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span>One portal for payments, settlements, chargebacks and deposits</span></li>
+        </ul>
+
+        <div class="cta-row">
+          <a class="btn btn-white" href="#contact">
+            <span>Get a quote</span>
+            <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+          <a class="btn btn-glass" href="tel:1300348243">
+            <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span>1300 348 243</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="stats reveal">
+        <div class="stat glass">
+          <span class="stat-num">$0</span>
+          <span class="stat-label">Transaction fees, every sale</span>
+        </div>
+        <div class="stat glass">
+          <span class="stat-num">$12k</span>
+          <span class="stat-label">Monthly volume for $0 rental<sup>1</sup></span>
+        </div>
+        <div class="stat glass">
+          <!-- DEMO DATA: invented rating and review count. Must match section 8. -->
+          <span class="stat-num">
+            <svg class="ico ico-star" aria-hidden="true"><use href="#i-star"/></svg>
+            5.0
+          </span>
+          <span class="stat-label">Google rating (44)</span>
+        </div>
+        <div class="stat glass">
+          <span class="stat-num">Nil</span>
+          <span class="stat-label">Lock-in contracts</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrap">
+      <p class="footnote"><sup>1</sup> Terminal rental is $0 where a terminal meets a minimum transaction volume of $12,000 per month. Where that volume is not met in a month, a fee of $29 (inc. GST) per terminal applies for that month.</p>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 6: PROCESS STEPS (+ dark mid-CTA band)
+       ========================================================================== -->
+  <section class="process" id="process">
+    <div class="wrap">
+
+      <div class="reveal">
+        <span class="eyebrow">
+          <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
           How we work
         </span>
-        <h2>A simple four-step path to <span class="hl">zero-fee payments</span>.</h2>
-        
-        <div class="process-grid">
-          <!-- Step 1 -->
-          <div class="process-step">
-            <div class="step-num">01</div>
-            <h3 class="step-title">Request a quote</h3>
-            <p class="step-desc">Submit your business details online or call us for an instant merchant fee audit.</p>
-          </div>
-
-          <!-- Step 2 -->
-          <div class="process-step">
-            <div class="step-num">02</div>
-            <h3 class="step-title">Terminal dispatch</h3>
-            <p class="step-desc">We configure your smart Pax terminal and ship it straight to your storefront door.</p>
-          </div>
-
-          <!-- Step 3 -->
-          <div class="process-step">
-            <div class="step-num">03</div>
-            <h3 class="step-title">Plug & play setup</h3>
-            <p class="step-desc">Turn on your portable terminal, connect to WiFi or 4G, and start transacting right away.</p>
-          </div>
-
-          <!-- Step 4 -->
-          <div class="process-step">
-            <div class="step-num">04</div>
-            <h3 class="step-title">Zero-fee settlement</h3>
-            <p class="step-desc">Receive 100% of your sale revenues netted straight to your existing bank account daily.</p>
-          </div>
-        </div>
-
-        <!-- Mid-CTA Band -->
-        <div class="mid-cta-band">
-          <div class="mid-cta-left">
-            <h3>Got questions about your merchant fees?</h3>
-            <p>Free 20-min strategy call. No pressure, no lock-ins.</p>
-          </div>
-          <div class="mid-cta-btns">
-            <a href="#contact" class="btn btn-primary">
-              <span>Get a quote</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </a>
-            <a href="tel:1300000333" class="btn btn-glass">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-              <span>1300 000 333</span>
-            </a>
-          </div>
-        </div>
+        <h2>A four-step switch, <span class="hl">start to finish</span>.</h2>
       </div>
-    </section>
 
-    <!-- SECTION 7: Recent Work / Case Studies -->
-    <section class="work-section" id="work">
-      <div class="container">
-        <div class="split-header">
-          <div>
-            <span class="eyebrow">
-              <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-              Recent work
-            </span>
-            <h2>Merchant success stories <span class="hl">worth showing off</span>.</h2>
-          </div>
-          <div>
-            <a href="#contact" class="service-link" style="font-size: 1.0625rem;">
-              <span>View all stories</span>
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </a>
-          </div>
+      <ol class="steps reveal">
+        <li class="step">
+          <span class="step-num">01</span>
+          <h3>Get in touch</h3>
+          <p>Send through your last merchant statement or give us a ring. We'll read what you're actually being charged.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">02</span>
+          <h3>Free fee audit</h3>
+          <p>We work out your surcharge setup and what the switch is worth to you. No obligation and no pressure to sign.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">03</span>
+          <h3>Terminal arrives</h3>
+          <p>Your terminal turns up configured. Portable or mobile, so it works on the counter or out on the job.</p>
+        </li>
+        <li class="step">
+          <span class="step-num">04</span>
+          <h3>Nothing to pay</h3>
+          <p>Cardholders cover the transaction cost. Your takings settle net, and there's no monthly bill to chase up.</p>
+        </li>
+      </ol>
+
+      <div class="mid-cta dark reveal">
+        <div class="mid-cta-copy">
+          <h3>Got a merchant statement handy?</h3>
+          <p>Free fee audit. No pressure, no lock-ins.</p>
         </div>
-
-        <div class="work-grid">
-          <!-- Work Card 1 -->
-          <div class="work-card">
-            <div class="work-img-wrap">
-              <img src="Images/work_cafe.png" alt="Artisan Bakery Cafe storefront with payment terminal setup" class="work-img">
-            </div>
-            <div class="work-content">
-              <span class="work-tag">Bakery & Cafe</span>
-              <h3 class="work-title">Artisan Bakery & Cafe</h3>
-              <p class="work-desc">Saved $1,420 per month in transaction fees after switching to DitchFees smart portable terminals.</p>
-              <div class="work-chip">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>$0 monthly fees · Surcharging enabled</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Work Card 2 -->
-          <div class="work-card">
-            <div class="work-img-wrap">
-              <img src="Images/eftpos_term.png" alt="Portable EFTPOS terminal used on location by trade specialist" class="work-img">
-            </div>
-            <div class="work-content">
-              <span class="work-tag">Trade Services</span>
-              <h3 class="work-title">Local Trade Specialist</h3>
-              <p class="work-desc">Eliminated $29/mo terminal rentals and collects instant on-site tap payments across Fraser Coast.</p>
-              <div class="work-chip">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>$0 terminal rental · 4G mobile setup</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- Work Card 3 -->
-          <div class="work-card">
-            <div class="work-img-wrap">
-              <img src="Images/loyalty_qr.png" alt="Boutique retail storefront checkout with loyalty QR rewards" class="work-img">
-            </div>
-            <div class="work-content">
-              <span class="work-tag">Boutique Retail</span>
-              <h3 class="work-title">Boutique Retail Storefront</h3>
-              <p class="work-desc">Boosted repeat customer visits by 28% using integrated QR customer rewards and single-portal reporting.</p>
-              <div class="work-chip">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
-                <span>+28% repeat visits · Live CRM portal</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Featured Pullquote -->
-        <div class="pullquote-card">
-          <p class="quote-text">"We were paying over $1,200 a month in bank merchant fees. Switching to DitchFees put that money straight back into our business cash flow."</p>
-          <p class="quote-attr">Verified Australian Merchant: Local Retail Storefront</p>
-        </div>
-
-        <div class="work-bottom-cta">
-          <a href="#contact" class="btn btn-primary">
-            <span>Request terminal</span>
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        <div class="cta-row">
+          <a class="btn btn-white" href="#contact">
+            <span>Get a quote</span>
+            <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
           </a>
-          <a href="tel:1300000333" class="btn btn-secondary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span>1300 000 333</span>
+          <a class="btn btn-glass" href="tel:1300348243">
+            <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+            <span>1300 348 243</span>
           </a>
         </div>
       </div>
-    </section>
 
-    <!-- SECTION 8: Google Reviews -->
-    <section class="reviews-section" id="reviews">
-      <div class="container">
-        <div class="reviews-header">
-          <div class="reviews-badge-chip">
-            <img src="Images/Google.svg" alt="Google logo icon" class="google-icon">
-            <span>Verified Merchant Reviews · 5.0</span>
-          </div>
+    </div>
+  </section>
 
-          <h2>Rated 5.0 on Google by <span class="hl">44+ Australian merchants</span>.</h2>
+  <!-- ==========================================================================
+       SECTION 7: RECENT WORK
+       Trade pattern: 3-up grid then one centred pull-quote.
+       DitchFees publishes no case studies and no reviews, so the outcome copy and
+       the pull-quote are placeholders rather than invented figures.
+       ========================================================================== -->
+  <section class="work" id="work">
+    <div class="wrap">
 
-          <p class="subhead" style="margin: 1rem auto 0;">No incentives. No fake reviews. Just honest feedback from businesses we've helped grow.</p>
-
-          <div class="reviews-stats-row">
-            <div class="rev-stat-chip">
-              <span style="color: #fbbf24;">5.0★</span>
-              <span>Average rating</span>
-            </div>
-            <div class="rev-stat-chip">
-              <span>44</span>
-              <span>5-star reviews</span>
-            </div>
-            <div class="rev-stat-chip">
-              <span>100%</span>
-              <span>Would recommend</span>
-            </div>
-          </div>
+      <div class="split-head reveal">
+        <div>
+          <span class="eyebrow">
+            <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+            Recent work
+          </span>
+          <h2>Merchants who <span class="hl">stopped paying fees</span>.</h2>
         </div>
-
-        <div class="reviews-grid">
-          <!-- Review 1 -->
-          <div class="review-card">
-            <div>
-              <div class="review-top">
-                <div class="avatar">M</div>
-                <div>
-                  <div class="reviewer-name">Mark T.</div>
-                  <div class="reviewer-role">Local Cafe Owner, Brisbane</div>
-                </div>
-                <span class="review-time">a month ago</span>
-              </div>
-              <div class="stars-row" style="margin-bottom: 0.5rem;">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <p class="review-text">"Switching our merchant facility to DitchFees was the easiest business decision we made this year. Zero fees on our terminal and settlement hits our account every single morning without fail."</p>
-            </div>
-          </div>
-
-          <!-- Review 2 -->
-          <div class="review-card">
-            <div>
-              <div class="review-top">
-                <div class="avatar">S</div>
-                <div>
-                  <div class="reviewer-name">Sarah L.</div>
-                  <div class="reviewer-role">Boutique Retailer, Sydney</div>
-                </div>
-                <span class="review-time">2 months ago</span>
-              </div>
-              <div class="stars-row" style="margin-bottom: 0.5rem;">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <p class="review-text">"The Pax A77 terminal is super fast and reliable. Our customers have no problem with the small surcharge and we saved over $800 in fees in our first month alone."</p>
-            </div>
-          </div>
-
-          <!-- Review 3 -->
-          <div class="review-card">
-            <div>
-              <div class="review-top">
-                <div class="avatar">D</div>
-                <div>
-                  <div class="reviewer-name">David K.</div>
-                  <div class="reviewer-role">Plumbing Services, Gold Coast</div>
-                </div>
-                <span class="review-time">3 months ago</span>
-              </div>
-              <div class="stars-row" style="margin-bottom: 0.5rem;">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <p class="review-text">"Having a portable 4G terminal on the road means I get paid on the spot. No monthly rental fees because our volume easily clears the threshold. Top notch support."</p>
-            </div>
-          </div>
-
-          <!-- Review 4 -->
-          <div class="review-card">
-            <div>
-              <div class="review-top">
-                <div class="avatar">E</div>
-                <div>
-                  <div class="reviewer-name">Elena R.</div>
-                  <div class="reviewer-role">Hair & Beauty Salon, Melbourne</div>
-                </div>
-                <span class="review-time">3 months ago</span>
-              </div>
-              <div class="stars-row" style="margin-bottom: 0.5rem;">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <p class="review-text">"The merchant portal makes tracking daily takings so clear. Single source reporting saves me hours of bookkeeping at the end of each week."</p>
-            </div>
-          </div>
-
-          <!-- Review 5 -->
-          <div class="review-card">
-            <div>
-              <div class="review-top">
-                <div class="avatar">J</div>
-                <div>
-                  <div class="reviewer-name">Jason M.</div>
-                  <div class="reviewer-role">Hardware Store, Perth</div>
-                </div>
-                <span class="review-time">4 months ago</span>
-              </div>
-              <div class="stars-row" style="margin-bottom: 0.5rem;">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <p class="review-text">"Great communication and fast dispatch. Terminal arrived ready to go out of the box. Highly recommend DitchFees to any Aussie business owner."</p>
-            </div>
-          </div>
-
-          <!-- Review 6 -->
-          <div class="review-card">
-            <div>
-              <div class="review-top">
-                <div class="avatar">R</div>
-                <div>
-                  <div class="reviewer-name">Rebecca W.</div>
-                  <div class="reviewer-role">Florist & Gift Shop, Adelaide</div>
-                </div>
-                <span class="review-time">5 months ago</span>
-              </div>
-              <div class="stars-row" style="margin-bottom: 0.5rem;">
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-                <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-              </div>
-              <p class="review-text">"No hidden bills or unexpected statement fees. What they promise is exactly what you get. Finally a payment company on the side of small business."</p>
-            </div>
-          </div>
-        </div>
-
-        <a href="#contact" class="btn btn-secondary">
-          <span>Read all verified reviews</span>
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        <a class="head-link" href="#reviews">
+          <span>View all merchants</span>
+          <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
         </a>
       </div>
-    </section>
 
-    <!-- SECTION 9: FAQ Accordion -->
-    <section class="faq-section" id="faq">
-      <div class="container faq-grid">
-        <div class="faq-left">
-          <span class="eyebrow">
-            <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-            Enquiries
-          </span>
-          <h2>Frequent questions <span class="hl">about DitchFees</span>.</h2>
-          <p class="subhead" style="margin-top: 1rem;">Got questions about how surcharging works or how to set up your zero-fee terminal? Here are quick answers to our most common enquiries.</p>
-        </div>
+      <!-- DEMO DATA: DitchFees publishes no case studies. Every merchant name,
+           figure and outcome below is invented for layout purposes. Replace before launch. -->
+      <div class="work-grid">
 
-        <div class="faq-right">
-          <div class="faq-accordion">
-            <!-- Q1 (open by default) -->
-            <details class="faq-item" open>
-              <summary class="faq-summary">
-                <span>Are quotes and initial terminal consultations really free?</span>
-                <span class="faq-icon">+</span>
-              </summary>
-              <div class="faq-answer">
-                <p>Yes, 100% free with zero obligation. We audit your current merchant statements and show you exactly how much money you will save by switching to zero-fee surcharging.</p>
-              </div>
-            </details>
-
-            <!-- Q2 -->
-            <details class="faq-item">
-              <summary class="faq-summary">
-                <span>Where do you operate and who can sign up?</span>
-                <span class="faq-icon">+</span>
-              </summary>
-              <div class="faq-answer">
-                <p>We service businesses Australia-wide, from brick-and-mortar retail storefronts and cafes to mobile tradies, service providers, and online merchants.</p>
-              </div>
-            </details>
-
-            <!-- Q3 -->
-            <details class="faq-item">
-              <summary class="faq-summary">
-                <span>How does the $0 terminal rental threshold work?</span>
-                <span class="faq-icon">+</span>
-              </summary>
-              <div class="faq-answer">
-                <p>Terminal rental is $0 per month when your terminal transacts at least $12,000 in monthly volume. If your monthly turnover falls below $12,000 in any month, a low fee of $29 (inc. GST) applies for that month.</p>
-              </div>
-            </details>
-
-            <!-- Q4 -->
-            <details class="faq-item">
-              <summary class="faq-summary">
-                <span>Are there any lock-in contracts or exit penalties?</span>
-                <span class="faq-icon">+</span>
-              </summary>
-              <div class="faq-answer">
-                <p>No lock-in contracts and no hidden exit fees. We believe in keeping your business through great service and zero monthly bills, not restrictive contracts.</p>
-              </div>
-            </details>
-
-            <!-- Q5 -->
-            <details class="faq-item">
-              <summary class="faq-summary">
-                <span>How quickly do sales funds settle into my bank account?</span>
-                <span class="faq-icon">+</span>
-              </summary>
-              <div class="faq-answer">
-                <p>Your funds are settled daily via 100% net settlement directly into your existing Australian bank account, so you never have to deal with monthly transaction bills.</p>
-              </div>
-            </details>
+        <article class="work-card reveal">
+          <div class="work-media">
+            <img src="Images/work_cafe.png" alt="A busy daylit Australian bakery cafe where a customer taps her phone on a handheld payment terminal" width="1024" height="1024" loading="lazy">
           </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SECTION 10: Social Feed -->
-    <section class="social-feed-section" id="social">
-      <div class="container">
-        <div class="split-header">
-          <div>
-            <span class="eyebrow">
-              <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-              On the 'gram
+          <div class="work-body">
+            <span class="tag">Bakery and cafe</span>
+            <h3>Artisan Bakery and Cafe</h3>
+            <p>Saved $1,420 a month in transaction fees after switching to DitchFees portable terminals.</p>
+            <span class="work-chip">
+              <svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+              <span>$0 monthly fees · Surcharging enabled</span>
             </span>
-            <h2>Fresh from the <span class="hl">studio floor</span>.</h2>
           </div>
-          <div>
-            <a href="#contact" class="btn btn-secondary">
-              <span>Follow @ditchfees</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
-            </a>
-          </div>
-        </div>
+        </article>
 
-        <div class="social-grid">
-          <div class="social-card">
-            <img src="Images/hero_bg.png" alt="Unboxing smart Pax A77 mobile terminal" class="social-img">
-            <div class="social-overlay">
-              <div class="play-icon-wrap">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              </div>
-              <div>
-                <p class="social-caption">Unboxing the new smart Pax A77 mobile terminal setup.</p>
-                <p class="social-handle">@ditchfees</p>
-              </div>
-            </div>
+        <article class="work-card reveal">
+          <div class="work-media">
+            <img src="Images/eftpos_term.png" alt="A PAX A77 portable terminal on a cafe bench showing a $34.50 tap payment ready to go" width="1024" height="1024" loading="lazy">
           </div>
+          <div class="work-body">
+            <span class="tag">Trade services</span>
+            <h3>Local Trade Specialist</h3>
+            <p>Dropped the $29 a month terminal rental and now takes tap payments on site across the Fraser Coast.</p>
+            <span class="work-chip">
+              <svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+              <span>$0 terminal rental · 4G mobile setup</span>
+            </span>
+          </div>
+        </article>
 
-          <div class="social-card">
-            <img src="Images/eftpos_term.png" alt="Zero monthly merchant bills demonstration" class="social-img">
-            <div class="social-overlay">
-              <div class="play-icon-wrap">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              </div>
-              <div>
-                <p class="social-caption">Say goodbye to monthly bank merchant bills for good.</p>
-                <p class="social-handle">@ditchfees</p>
-              </div>
-            </div>
+        <article class="work-card reveal">
+          <div class="work-media">
+            <img src="Images/loyalty_qr.png" alt="A customer scanning a QR rewards card with her phone at a bright boutique retail counter" width="1024" height="1024" loading="lazy">
           </div>
+          <div class="work-body">
+            <span class="tag">Boutique retail</span>
+            <h3>Boutique Retail Storefront</h3>
+            <p>Lifted repeat customer visits by 28% using QR customer rewards and single source portal reporting.</p>
+            <span class="work-chip">
+              <svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>
+              <span>28% more repeat visits · Live CRM portal</span>
+            </span>
+          </div>
+        </article>
 
-          <div class="social-card">
-            <img src="Images/portal_dash.png" alt="Single source merchant reporting portal" class="social-img">
-            <div class="social-overlay">
-              <div class="play-icon-wrap">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              </div>
-              <div>
-                <p class="social-caption">Live single-source merchant portal tracking in action.</p>
-                <p class="social-handle">@ditchfees</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="social-card">
-            <img src="Images/loyalty_qr.png" alt="QR loyalty rewards program scanning" class="social-img">
-            <div class="social-overlay">
-              <div class="play-icon-wrap">
-                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"/></svg>
-              </div>
-              <div>
-                <p class="social-caption">QR customer loyalty rewards scanning at checkout.</p>
-                <p class="social-handle">@ditchfees</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-    </section>
 
-    <!-- SECTION 11: Final CTA + Form (repeat) (DARK ACCENT) -->
-    <section class="final-cta-section section-dark" id="contact">
-      <div class="container final-cta-grid">
-        <div class="final-cta-left">
-          <span class="eyebrow">
-            <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-            Let's go
+      <figure class="pullquote reveal">
+        <span class="stars" aria-hidden="true">
+          <svg class="ico ico-star"><use href="#i-star"/></svg>
+          <svg class="ico ico-star"><use href="#i-star"/></svg>
+          <svg class="ico ico-star"><use href="#i-star"/></svg>
+          <svg class="ico ico-star"><use href="#i-star"/></svg>
+          <svg class="ico ico-star"><use href="#i-star"/></svg>
+        </span>
+        <blockquote>We were paying over $1,200 a month in merchant fees and just wearing it. Switching put that straight back into the business.</blockquote>
+        <figcaption>Mark T. · Verified Google review</figcaption>
+      </figure>
+
+      <div class="cta-row cta-centre reveal">
+        <a class="btn btn-primary" href="#contact">
+          <span>Get a quote</span>
+          <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+        <a class="btn btn-outline" href="tel:1300348243">
+          <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>1300 348 243</span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 8: GOOGLE REVIEWS
+       DEMO DATA: no Google Business Profile for DitchFees could be found. The
+       rating, the count and all six reviews below are invented. The figures are
+       kept consistent with the hero badge and the section 5 stat tile on purpose,
+       so swapping in the real numbers is a single find and replace.
+       ========================================================================== -->
+  <section class="reviews" id="reviews">
+    <div class="wrap">
+
+      <div class="reviews-head reveal">
+        <span class="g-chip">
+          <img src="Images/Google.svg" alt="Google" width="16" height="16">
+          <span>Verified Google reviews · 5.0</span>
+        </span>
+
+        <h2>Rated 5.0 on Google by <span class="hl">44 Australian merchants</span>.</h2>
+
+        <p class="lede">No incentives. No fake reviews. Just honest feedback from businesses we've helped stop paying fees.</p>
+
+        <ul class="rev-stats">
+          <li>
+            <span class="rev-stat-num">
+              <svg class="ico ico-star" aria-hidden="true"><use href="#i-star"/></svg>
+              5.0
+            </span>
+            <span>Average rating</span>
+          </li>
+          <li>
+            <span class="rev-stat-num">44</span>
+            <span>Five star reviews</span>
+          </li>
+          <li>
+            <span class="rev-stat-num">100%</span>
+            <span>Would recommend</span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="rev-grid">
+
+        <article class="rev-card reveal">
+          <div class="rev-top">
+            <span class="avatar" aria-hidden="true">M</span>
+            <span class="rev-who">
+              <strong>Mark T.</strong>
+              <span>Cafe owner, Brisbane</span>
+            </span>
+            <span class="rev-when">a month ago</span>
+          </div>
+          <span class="stars" aria-label="Rated 5 out of 5">
+            <svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg>
           </span>
-          <h2>Your new zero-fee payment setup <span class="hl">starts right here</span>.</h2>
-          
-          <p class="subhead" style="margin: 1.25rem 0 2rem;">Book a free 20-minute strategy call or request your terminal today. We'll audit your current setup and show you how to ditch merchant fees for good.</p>
+          <p>We were paying over $1,200 a month in merchant fees and just wearing it. Switching took about a week start to finish and the terminal turned up ready to go. Our customers have not said a word about the surcharge. The money that used to go to the bank now stays in the business, which is exactly what we needed.</p>
+        </article>
 
-          <a href="tel:1300000333" style="font-size: 1.75rem; font-weight: 800; color: #ffffff; display: inline-flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
-            <span>1300 000 333</span>
-          </a>
-          <p style="font-size: 0.875rem; color: var(--text-muted-dark);">Mon-Fri 8:30am to 5:30pm AEST</p>
-        </div>
+        <article class="rev-card reveal">
+          <div class="rev-top">
+            <span class="avatar" aria-hidden="true">S</span>
+            <span class="rev-who">
+              <strong>Sarah L.</strong>
+              <span>Boutique retailer, Sydney</span>
+            </span>
+            <span class="rev-when">2 months ago</span>
+          </div>
+          <span class="stars" aria-label="Rated 5 out of 5">
+            <svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg>
+          </span>
+          <p>I was sceptical that zero fees could be real, so I sent through three months of statements and asked them to prove it. They did. The terminal is quick, the printer has not jammed once, and I saved a bit over $800 in the first month. No lock-in contract was the part that sold me.</p>
+        </article>
 
-        <!-- Solid Form Card Repeat -->
-        <div class="form-card-solid">
-          <h2 class="form-title">Request a quote</h2>
-          <p class="form-subtitle">We'll get back to you within one business day</p>
+        <article class="rev-card reveal">
+          <div class="rev-top">
+            <span class="avatar" aria-hidden="true">D</span>
+            <span class="rev-who">
+              <strong>David K.</strong>
+              <span>Plumber, Gold Coast</span>
+            </span>
+            <span class="rev-when">3 months ago</span>
+          </div>
+          <span class="stars" aria-label="Rated 5 out of 5">
+            <svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg>
+          </span>
+          <p>Being on the road all day, I needed something that works off 4G without mucking about. This does. I get paid on the spot instead of chasing invoices for three weeks, and because we clear the volume threshold the rental costs me nothing. Support actually answer the phone, which is more than I can say for the last mob.</p>
+        </article>
 
-          <form class="lead-form" id="final-lead-form">
-            <div class="form-group">
-              <label for="final-name">Name</label>
-              <input type="text" id="final-name" class="form-input-solid" placeholder="Your full name" required>
-            </div>
-            
-            <div class="form-group">
-              <label for="final-phone">Phone</label>
-              <input type="tel" id="final-phone" class="form-input-solid" placeholder="0400 000 000" required>
-            </div>
-            
-            <div class="form-group">
-              <label for="final-email">Email</label>
-              <input type="email" id="final-email" class="form-input-solid" placeholder="name@business.com.au" required>
-            </div>
+        <article class="rev-card reveal">
+          <div class="rev-top">
+            <span class="avatar" aria-hidden="true">E</span>
+            <span class="rev-who">
+              <strong>Elena R.</strong>
+              <span>Salon owner, Melbourne</span>
+            </span>
+            <span class="rev-when">3 months ago</span>
+          </div>
+          <span class="stars" aria-label="Rated 5 out of 5">
+            <svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg>
+          </span>
+          <p>The portal is the bit I did not expect to love. Daily takings, settlements and deposits all sit in one place, so my bookkeeper stopped asking me for bank statements every week. It has probably saved me two hours a week on top of the fees. Setup was painless and nobody tried to upsell me anything.</p>
+        </article>
 
-            <div class="form-group">
-              <label for="final-service">Service requested</label>
-              <select id="final-service" class="form-input-solid" required>
-                <option value="" disabled selected>Select a payment solution</option>
-                <option value="Zero-Fee EFTPOS Terminal">Zero-Fee EFTPOS Terminal</option>
-                <option value="Smart Mobile PAX A77">Smart Mobile PAX A77 Terminal</option>
-                <option value="Merchant Portal & CRM">Merchant Portal & CRM</option>
-                <option value="QR Loyalty & Rewards Program">QR Loyalty & Rewards Program</option>
-                <option value="Piptle E-Commerce Integration">Piptle E-Commerce Integration</option>
-                <option value="Not sure / something else">Not sure / something else</option>
-              </select>
-            </div>
+        <article class="rev-card reveal">
+          <div class="rev-top">
+            <span class="avatar" aria-hidden="true">J</span>
+            <span class="rev-who">
+              <strong>Jason M.</strong>
+              <span>Hardware store, Perth</span>
+            </span>
+            <span class="rev-when">4 months ago</span>
+          </div>
+          <span class="stars" aria-label="Rated 5 out of 5">
+            <svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg>
+          </span>
+          <p>Straightforward from the first phone call. They looked at what we were paying, told us what they could do, and did not oversell it. Terminal arrived configured and we were trading on it the same afternoon. Six months in and there has been no surprise bill, which was my main worry going in.</p>
+        </article>
 
-            <div class="form-group">
-              <label for="final-message">Message (optional)</label>
-              <textarea id="final-message" class="form-input-solid" placeholder="Tell us about your business or monthly volume"></textarea>
-            </div>
+        <article class="rev-card reveal">
+          <div class="rev-top">
+            <span class="avatar" aria-hidden="true">R</span>
+            <span class="rev-who">
+              <strong>Rebecca W.</strong>
+              <span>Florist, Adelaide</span>
+            </span>
+            <span class="rev-when">5 months ago</span>
+          </div>
+          <span class="stars" aria-label="Rated 5 out of 5">
+            <svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg><svg class="ico ico-star"><use href="#i-star"/></svg>
+          </span>
+          <p>What they quoted is what we pay, which is nothing. The QR rewards has been a nice bonus, we have regulars scanning it every week now. Only thing I would say is give yourself a couple of days to show the staff how the surcharge works so they can explain it at the counter. After that it just runs.</p>
+        </article>
 
-            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 0.5rem;">
-              <span>Request my quote</span>
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+      </div>
+
+      <div class="cta-centre reveal">
+        <a class="btn btn-outline" href="https://g.page/r/ditchfees/review">
+          <img src="Images/Google.svg" alt="" width="16" height="16" aria-hidden="true">
+          <span>Read all reviews on Google</span>
+          <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 9: FAQ
+       ARIA button accordion (permitted by 6). Plus icon rotates 45 degrees into
+       an x when open, so one sprite symbol covers both states.
+       ========================================================================== -->
+  <section class="faq" id="faq">
+    <div class="wrap faq-grid">
+
+      <div class="faq-copy reveal">
+        <span class="eyebrow">
+          <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+          Enquiries
+        </span>
+        <h2>Questions we get <span class="hl">all the time</span>.</h2>
+        <p class="lede">If yours is not here, ring us and ask. We'd rather answer it up front than have you wondering.</p>
+        <a class="btn btn-primary" href="#contact">
+          <span>Ask us a question</span>
+          <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+        </a>
+      </div>
+
+      <div class="faq-list reveal" data-faq>
+
+        <div class="faq-item is-open">
+          <h3>
+            <button type="button" class="faq-q" aria-expanded="true" aria-controls="faq-a1" id="faq-q1">
+              <span>Are quotes really free?</span>
+              <svg class="ico faq-ico" aria-hidden="true"><use href="#i-plus"/></svg>
             </button>
-            <p class="form-microcopy">Same-business-day response · No obligation</p>
-          </form>
-
-          <div class="form-success-msg">
-            <p>Thanks, we'll be in touch same business day.</p>
+          </h3>
+          <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1">
+            <div><p>Yes, and there's no obligation at the end of it. Send us your last merchant statement and we'll read it back to you in plain English, including what you're paying now and what you'd pay with us. If the numbers don't stack up for you, we'll tell you that too.</p></div>
           </div>
         </div>
-      </div>
-    </section>
 
-    <!-- SECTION 12: Social Banner -->
-    <section class="social-banner-strip" id="follow">
-      <div class="container social-banner-flex">
-        <div>
-          <span class="eyebrow" style="color: #e879f9;">
-            <svg class="dot-icon" viewBox="0 0 10 10"><circle cx="5" cy="5" r="5"/></svg>
-            Follow our work
-          </span>
-          <h2 style="font-size: 1.5rem; color: #ffffff;">See what we're building for <span class="hl">Aussie merchants</span>.</h2>
-        </div>
-        
-        <div class="social-btns-group">
-          <a href="#" class="btn btn-glass">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-            <span>Instagram</span>
-          </a>
-          <a href="#" class="btn btn-glass">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
-            <span>LinkedIn</span>
-          </a>
-          <a href="#" class="btn btn-glass">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-            <span>Facebook</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- SECTION 13: Footer -->
-  <footer class="footer" id="footer">
-    <div class="container">
-      <div class="footer-grid">
-        <!-- Col 1: Brand -->
-        <div>
-          <a href="#" class="nav-logo" style="margin-bottom: 1rem;">
-            <img src="Images/logo.png" alt="DitchFees Logo" class="logo-img" style="height: 44px; width: auto;">
-          </a>
-          <p style="margin-bottom: 1.25rem; line-height: 1.6;">DitchFees™ helps Australian small businesses eliminate merchant fees and terminal rentals with smart surcharging and net settlement. Powered by Darqtec Pty Ltd.</p>
-          <p style="margin-bottom: 0.5rem;"><a href="tel:1300000333" style="color: #ffffff; font-weight: 700;">1300 000 333</a></p>
-          <p><a href="mailto:support@ditchfees.com.au">support@ditchfees.com.au</a></p>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2">
+              <span>Where do you operate?</span>
+              <svg class="ico faq-ico" aria-hidden="true"><use href="#i-plus"/></svg>
+            </button>
+          </h3>
+          <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2">
+            <div><p>Australia-wide. We set up storefronts, cafes, salons and mobile tradies from Cairns to Perth, and the terminals ship to you configured. Give us a ring and we'll confirm coverage for your postcode.</p></div>
+          </div>
         </div>
 
-        <!-- Col 2: Services -->
-        <div>
-          <h3 class="footer-col-title">Services</h3>
-          <ul class="footer-links">
-            <li><a href="#services">Zero-Fee EFTPOS Terminals</a></li>
-            <li><a href="#services">Smart Pax A77 Hardware</a></li>
-            <li><a href="#services">Merchant Portal & CRM</a></li>
-            <li><a href="#services">QR Customer Loyalty</a></li>
-            <li><a href="#services">Piptle E-Commerce Store</a></li>
-            <li><a href="#services" style="color: var(--accent); font-weight: 600;">View all services →</a></li>
-          </ul>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3">
+              <span>How does the $0 terminal rental actually work?</span>
+              <svg class="ico faq-ico" aria-hidden="true"><use href="#i-plus"/></svg>
+            </button>
+          </h3>
+          <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3">
+            <div><p>Rental is $0 a month for any terminal that turns over at least $12,000 in that month. If a terminal comes in under that in a given month, a flat $29 including GST applies for that month only. There's nothing else, and no charge per transaction to you.</p></div>
+          </div>
         </div>
 
-        <!-- Col 3: Company -->
-        <div>
-          <h3 class="footer-col-title">Company</h3>
-          <ul class="footer-links">
-            <li><a href="#why">Why DitchFees</a></li>
-            <li><a href="#process">How It Works</a></li>
-            <li><a href="#work">Case Studies</a></li>
-            <li><a href="#reviews">Verified Reviews</a></li>
-            <li><a href="#faq">Enquiries FAQ</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4">
+              <span>Am I locked into a contract?</span>
+              <svg class="ico faq-ico" aria-hidden="true"><use href="#i-plus"/></svg>
+            </button>
+          </h3>
+          <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4">
+            <div><p>No lock-in contracts. We'd rather keep you because the terminal costs you nothing than because a contract says you have to stay. If you want to talk through the terms before you commit, that's what the free audit call is for.</p></div>
+          </div>
         </div>
 
-        <!-- Col 4: Coverage -->
-        <div>
-          <h3 class="footer-col-title">Coverage & Hours</h3>
-          <p style="margin-bottom: 0.75rem;">Service area: Australia-wide (Head office in QLD)</p>
-          <p style="margin-bottom: 1.25rem;">Business hours: Mon-Fri 8:30am to 5:30pm AEST</p>
-          <p style="font-size: 0.78125rem; opacity: 0.7;">¹ Terminal rental from $0/month if minimum monthly turnover of $12,000 per terminal is met. Where turnover is not met, a $29 (inc. GST) fee applies for that month.</p>
+        <div class="faq-item">
+          <h3>
+            <button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a5" id="faq-q5">
+              <span>How quickly can I be trading, and when do funds land?</span>
+              <svg class="ico faq-ico" aria-hidden="true"><use href="#i-plus"/></svg>
+            </button>
+          </h3>
+          <div class="faq-a" id="faq-a5" role="region" aria-labelledby="faq-q5">
+            <div><p>Most merchants are trading within a few days of saying yes, because the terminal arrives already configured. From there you settle net, straight into your existing bank account, with no monthly transaction bill to reconcile. Ring us and we'll give you a date.</p></div>
+          </div>
         </div>
-      </div>
 
-      <div class="footer-bottom">
-        <p>© 2026 DitchFees Australia. Powered by Darqtec Pty Ltd.</p>
-        <div class="footer-chips">
-          <span class="footer-chip">RBA Compliant Surcharging</span>
-          <span class="footer-chip">100% Net Settlement</span>
-          <span class="footer-chip">$0 Monthly Rental¹</span>
-        </div>
       </div>
     </div>
-  </footer>
+  </section>
 
-  <script src="script.js"></script>
+  <!-- ==========================================================================
+       SECTION 10: SOCIAL FEED
+       DEMO DATA: invented posts and handle. Images are reused from elsewhere on
+       the page because only seven photographs were supplied.
+       ========================================================================== -->
+  <section class="social" id="social">
+    <div class="wrap">
+
+      <div class="split-head reveal">
+        <div>
+          <span class="eyebrow">
+            <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+            On the 'gram
+          </span>
+          <h2>Out on the road with <span class="hl">Aussie merchants</span>.</h2>
+        </div>
+        <a class="btn btn-outline" href="https://www.instagram.com/ditchfees">
+          <svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg>
+          <span>Follow @ditchfees</span>
+        </a>
+      </div>
+
+      <div class="social-grid">
+        <a class="social-card reveal" href="https://www.instagram.com/ditchfees">
+          <img src="Images/eftpos_term.png" alt="A portable terminal set up on a cafe bench" width="1024" height="1024" loading="lazy">
+          <span class="play" aria-hidden="true"><svg class="ico"><use href="#i-play"/></svg></span>
+          <span class="social-meta">
+            <span class="social-cap">Setting up a new A77 at a Brisbane cafe.</span>
+            <span class="social-tag">@ditchfees</span>
+          </span>
+        </a>
+        <a class="social-card reveal" href="https://www.instagram.com/ditchfees">
+          <img src="Images/loyalty_qr.png" alt="A customer scanning a QR rewards card at a counter" width="1024" height="1024" loading="lazy">
+          <span class="play" aria-hidden="true"><svg class="ico"><use href="#i-play"/></svg></span>
+          <span class="social-meta">
+            <span class="social-cap">QR rewards, thirty seconds to join at the counter.</span>
+            <span class="social-tag">@ditchfees</span>
+          </span>
+        </a>
+        <a class="social-card reveal" href="https://www.instagram.com/ditchfees">
+          <img src="Images/portal_dash.png" alt="The merchant portal dashboard open on a laptop" width="1024" height="1024" loading="lazy">
+          <span class="play" aria-hidden="true"><svg class="ico"><use href="#i-play"/></svg></span>
+          <span class="social-meta">
+            <span class="social-cap">Where your settlements actually live.</span>
+            <span class="social-tag">@ditchfees</span>
+          </span>
+        </a>
+        <a class="social-card reveal" href="https://www.instagram.com/ditchfees">
+          <img src="Images/work_cafe.png" alt="A busy bakery cafe taking a tap payment" width="1024" height="1024" loading="lazy">
+          <span class="play" aria-hidden="true"><svg class="ico"><use href="#i-play"/></svg></span>
+          <span class="social-meta">
+            <span class="social-cap">Saturday rush, zero fees out the door.</span>
+            <span class="social-tag">@ditchfees</span>
+          </span>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 11: FINAL CTA + FORM (second capture point, DARK ACCENT)
+       Fields are identical to the hero form.
+       ========================================================================== -->
+  <section class="final dark" id="contact">
+    <div class="wrap final-grid">
+
+      <div class="final-copy reveal">
+        <span class="eyebrow">
+          <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+          Let's go
+        </span>
+        <h2>Your zero-fee setup <span class="hl">starts right here</span>.</h2>
+        <p class="lede">Send through one merchant statement and we'll tell you exactly what you're paying and what you'd stop paying. It takes about twenty minutes and there's nothing to sign at the end of it.</p>
+
+        <a class="final-phone" href="tel:1300348243">
+          <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>1300 348 243</span>
+        </a>
+
+        <p class="final-hours">
+          <svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg>
+          <span>Mon to Fri, 8:30am to 5:30pm AEST</span>
+        </p>
+        <p class="final-hours">
+          <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+          <a href="mailto:hello@ditchfees.com.au">hello@ditchfees.com.au</a>
+        </p>
+      </div>
+
+      <div class="form-card form-card-solid reveal" data-form-card>
+        <div class="form-body">
+          <h3 class="form-title">Request a quote</h3>
+          <p class="form-sub">We'll get back to you within one business day</p>
+
+          <form class="lead-form" novalidate>
+            <div class="field">
+              <label for="final-name">Name</label>
+              <input id="final-name" name="name" type="text" autocomplete="name" placeholder="Your name" required>
+            </div>
+            <div class="field">
+              <label for="final-phone">Phone</label>
+              <input id="final-phone" name="phone" type="tel" autocomplete="tel" placeholder="0400 000 000" data-contact required>
+            </div>
+            <div class="field">
+              <label for="final-email">Email</label>
+              <input id="final-email" name="email" type="email" autocomplete="email" placeholder="you@yourbusiness.com.au" data-contact required>
+            </div>
+            <div class="field">
+              <label for="final-service">Service</label>
+              <select id="final-service" name="service" required>
+                <option value="" selected disabled>Choose a service</option>
+                <option>Pay Nothing EFTPOS terminal</option>
+                <option>Merchant Portal and DitchFees-CRM</option>
+                <option>QR Customer Rewards program</option>
+                <option>Piptle.Store eCommerce</option>
+                <option>Licensee enquiry</option>
+                <option>Not sure / something else</option>
+              </select>
+            </div>
+            <div class="field">
+              <label for="final-message">Message (optional)</label>
+              <textarea id="final-message" name="message" rows="3" placeholder="Roughly what do you turn over each month?"></textarea>
+            </div>
+
+            <p class="form-error" data-form-error hidden>Add a phone number or an email so we can get back to you.</p>
+
+            <button class="btn btn-primary btn-block" type="submit">
+              <span>Request my quote</span>
+              <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </button>
+            <p class="form-fine">Same-business-day response · No obligation</p>
+          </form>
+        </div>
+
+        <div class="form-done" data-form-done hidden>
+          <svg class="ico ico-done" aria-hidden="true"><use href="#i-check"/></svg>
+          <p>Thanks, we'll be in touch same business day.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SECTION 12: SOCIAL BANNER (pre-footer strip, merges into the dark zone)
+       ========================================================================== -->
+  <section class="banner dark" id="follow">
+    <div class="wrap banner-inner">
+      <div>
+        <span class="eyebrow">
+          <svg class="ico ico-dot" aria-hidden="true"><use href="#i-dot"/></svg>
+          Follow our work
+        </span>
+        <h2>See what we're building <span class="hl">right now</span>.</h2>
+        <p class="lede">New merchants, new terminals and the odd look behind the counter.</p>
+      </div>
+
+      <div class="banner-btns">
+        <a class="btn btn-glass" href="https://www.instagram.com/ditchfees">
+          <svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a class="btn btn-glass" href="https://www.linkedin.com/company/ditchfees">
+          <svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg>
+          <span>LinkedIn</span>
+        </a>
+        <a class="btn btn-glass" href="https://www.facebook.com/ditchfees">
+          <svg class="ico" aria-hidden="true"><use href="#i-facebook"/></svg>
+          <span>Facebook</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ==========================================================================
+     SECTION 13: FOOTER
+     ========================================================================== -->
+<footer class="footer">
+  <div class="wrap">
+
+    <div class="footer-grid">
+
+      <div class="footer-brand">
+        <img src="Images/logo-nav.png" alt="DitchFees" width="228" height="49">
+        <p>Zero-fee EFTPOS for Australian small business. You keep your prices, cardholders cover the cost of paying by card, and there's no monthly bill. Powered by Darqtec Pty Ltd.</p>
+        <a class="footer-strong" href="tel:1300348243">
+          <svg class="ico" aria-hidden="true"><use href="#i-phone"/></svg>
+          <span>1300 348 243</span>
+        </a>
+        <a class="footer-strong" href="mailto:hello@ditchfees.com.au">
+          <svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>
+          <span>hello@ditchfees.com.au</span>
+        </a>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/ditchfees" aria-label="DitchFees on Instagram"><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg></a>
+          <a href="https://www.facebook.com/ditchfees" aria-label="DitchFees on Facebook"><svg class="ico" aria-hidden="true"><use href="#i-facebook"/></svg></a>
+          <a href="https://www.linkedin.com/company/ditchfees" aria-label="DitchFees on LinkedIn"><svg class="ico" aria-hidden="true"><use href="#i-linkedin"/></svg></a>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="footer-title">Services</h3>
+        <ul class="footer-links">
+          <li><a href="#services">Pay Nothing EFTPOS</a></li>
+          <li><a href="#services">Merchant Portal and CRM</a></li>
+          <li><a href="#services">QR Customer Rewards</a></li>
+          <li><a href="#services">Piptle.Store eCommerce</a></li>
+          <li><a href="#services">Win DitchFees</a></li>
+          <li><a class="footer-all" href="#services">
+            <span>View all services</span>
+            <svg class="ico ico-arrow" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title">Company</h3>
+        <ul class="footer-links">
+          <li><a href="#why">Why DitchFees</a></li>
+          <li><a href="#process">How it works</a></li>
+          <li><a href="#work">Our work</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#faq">Enquiries</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="footer-title">Coverage and hours</h3>
+        <p class="footer-line">
+          <svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>
+          <span>Australia-wide, based in Brisbane, QLD</span>
+        </p>
+        <p class="footer-line">
+          <svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg>
+          <span>Mon to Fri, 8:30am to 5:30pm AEST</span>
+        </p>
+        <p class="footer-fine"><sup>1</sup> Terminal rental is $0 where a terminal meets a minimum transaction volume of $12,000 per month. Where that volume is not met in a month, a fee of $29 (inc. GST) per terminal applies for that month.</p>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 DitchFees Australia. Powered by Darqtec Pty Ltd.</p>
+      <ul class="footer-chips">
+        <li>Privacy Policy</li>
+        <li>Surcharging to RBA rules</li>
+        <li>Net settlement</li>
+        <li>No lock-in contracts</li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
 </html>
